@@ -1,0 +1,42 @@
+h1{
+    color: red;
+    text-align: center;
+}
+p{
+    color: blue;
+    text-align: center;
+}
+img{
+    height: 500px;
+    width: 1000px;
+    margin: 2px;
+    border: 2px solid green;
+    background-position: center;
+    background-color: indigo;
+
+}
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 30px;
+}
+	
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: blue;
+	padding: 5px 20px;
+	border: 1px solid red;
+}
+ul li a:hover{
+	background-color: yellow;
+	color: black;
+}
+trainee{
+	padding: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+

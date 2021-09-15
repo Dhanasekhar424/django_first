@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <title>first app</title>
+        <link rel="stylesheet" href="{% static 'images/css/style.css' %}">
+    </head>
+    <body>
+        <h1>university </h1>
+        <P>{{import_text}}</P>
+        <div class="topmm">
+            <ul>
+            <li><a href={% url 'home' %}>home</a></li>
+            <li><a href="#">about</a></li>
+           <li><a href="#">contact</a></li>
+            <li><a href="#">courses</a></li>
+            <li><a href="#">record</a></li>
+            <li><a href="#">cultural Room</a></li>
+            <li><a href={% url 'information' %}>information </a></li>
+            <li><a href={% url 'trainee' %}>trainee </a></li>
+            
+            
+            
+          </ul>
+          </div>
+        <center><img src={% static "images/institute.jpg" %}></center>
+        
+
+    </body>
+</html>
